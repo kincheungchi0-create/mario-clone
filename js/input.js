@@ -9,16 +9,21 @@
         case 32:
             key = 'SPACE'; break;
         case 37:
+        case 65: // A
             key = 'LEFT'; break;
         case 38:
+        case 87: // W
             key = 'UP'; break;
         case 39:
+        case 68: // D
             key = 'RIGHT'; break;
         case 40:
+        case 83: // S
             key = 'DOWN'; break;
         case 88:
+        case 73: // I
             key = 'JUMP'; break;
-        case 90:
+        case 90: // Z
             key = 'RUN'; break;
         default:
             key = String.fromCharCode(code);
